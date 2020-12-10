@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400&display=swap");
+.App {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #9cacb4;
+}
+body {
+  background-color: #0e1012;
+  color: var(--primary-color);
+}
+.heading {
+  color: var(--primary-color);
+}
+.button-div {
+  padding: 1rem;
+}
+.button {
+  /* padding: 0.5rem; */
+  /* margin: 0.5rem; */
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(206, 206, 238);
+}
+.button:active {
+  background-color: rgb(49, 49, 197);
+}
+.genre-list {
+  text-align: center;
+  background-color: rgb(250, 235, 235);
+  color: rgb(241, 235, 235);
+  border: 2rem;
+}
